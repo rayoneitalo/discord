@@ -8,16 +8,13 @@ import ChannelList from '../ChannelList';
 import UserInfo from '../UserInfo';
 import UserList from '../UserList';
 
-interface Props {
-    toggleTheme(): void
-}
 
-const Layout: React.FC<Props> = ({toggleTheme}) => {
+const Layout: React.FC = () => {
     return (
         <Grid>
             <ServerList />
             <ServerName />
-            <ChannelInfo toggleTheme={toggleTheme} />
+            <ChannelInfo />
             <ChannelList />
             <UserInfo />
             <div />
