@@ -55,9 +55,11 @@ export const User = styled.div`
     margin-left: 9px;
     background-color: var(--discord);
     border-radius: 4px;
-    padding: 1px 4px 1px 2px;
+    padding: 4px 5px;
     color: var(--white);
-    font-size: 14px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,11 +67,16 @@ export const User = styled.div`
 `;
 
 export const Avatar = styled.div`
+  flex-shrink: 0;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   background-color: var(--primary);
-  margin-right: 7px;
+
+  &.bot {
+    background-color: var(--mention-detail);
+  }
+
 `;
 export const Role = styled.span`
   margin-top: 20px;
@@ -80,6 +87,5 @@ export const Role = styled.span`
 `;
 
 export const Checked = styled(MdCheck)`
-  margin-right: 2px;
-  font-weight: bold;
+  margin-right: 3px;
 `;

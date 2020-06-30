@@ -18,10 +18,11 @@ export const Container = styled.div`
   }
 `;
 
-export const HashtagIcon = styled(MdTextsms)`
-    width: 24px;
-    height: 24px;
-    color: var(--symbol);
+export const HashtagIcon = styled.span`
+  font-size: 18pt;
+  font-weight: bold;
+  color: var(--symbol);
+  /* margin-right: 4px; */
 `;
 export const Title = styled.h1`
     margin-left: 9px;

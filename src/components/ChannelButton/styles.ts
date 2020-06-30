@@ -14,7 +14,7 @@ export const Container = styled.div`
   .settings-container {
     opacity: 0;
     transform: translateY(20px);
-    transition: all 200ms ease;
+    transition: all .1ms ease;
   }
 
   &:hover {
