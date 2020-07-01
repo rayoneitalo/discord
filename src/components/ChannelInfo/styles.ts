@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { MdTextsms } from 'react-icons/md';
 
 export const Container = styled.div`
   grid-area: CI;
