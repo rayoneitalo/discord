@@ -63,8 +63,8 @@ export const Input = styled.input`
 `;
 
 export const InputIcon = styled(MdAdd)`
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   color: var(--symbol);
   border-radius: 50%;
   background-color: #b9bbbe;

@@ -4,7 +4,7 @@ import { Container, Title, ExpandIcon } from './styles';
 const ServerName: React.FC = () => {
     return (
         <Container>
-            <Title>Servidor do Kirito</Title>
+            <Title>Servidor</Title>
             <ExpandIcon />
         </Container>
     )
